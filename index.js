@@ -16,7 +16,7 @@ var api = new ParseServer({
   cloud: process.env.CLOUD_CODE_MAIN || __dirname + '/cloud/main.js',
   appId: process.env.APP_ID || 'bCUhSr2gO45fBED6tOcC5RRwyO6WzFQurJEu3Ebb',
   masterKey: process.env.MASTER_KEY || 'AJo4RnZptGRYXRiEmuDs5aviXYrfmkmeWQ1figpd', //Add your master key here. Keep it secret!
-  fileKey:process.env.FILE_KEY || '', // Add your file key here.
+  fileKey:process.env.FILE_KEY || '364fc461-f5f3-48e8-b6d3-22fcc7010cc4', // Add your file key here.
   serverURL: process.env.SERVER_URL || 'https://milkthemovementlocal.herokuapp.com/parse',  // Don't forget to change to https if needed
   liveQuery: {
     classNames: ["Posts", "Comments"] // List of classes to support for query subscriptions
